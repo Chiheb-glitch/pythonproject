@@ -81,7 +81,7 @@ def new_y_value(p):
    for i in mycursor:
        t=t+i
    
-
+   
    print(t[p])
    return t[p]
 
@@ -112,10 +112,11 @@ def animate(i):
    
 
    for j in range(secondsCalc * plotHz * Oversample):
-       if j == x :
+       if j == x+x :
        	break
-
+s
        totaly +=new_y_value(j)
+       
         
 
 
